@@ -1,0 +1,57 @@
+.container{
+    grid-template-columns:400px   400px;
+    grid-template-rows: 30px 50px 260px 30px;
+    padding-right: 2px;
+    display: grid;
+   text-align: center;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: larger;
+   font-style: italic;
+   margin-top: 70px;
+   margin-left: 280px;
+}
+.container div{
+    border: black 2px solid;
+}
+.main-header{background-color: gray;
+grid-column: 1/3;
+}
+.header{
+    grid-column: 1/3;
+    padding-top: 8px;
+}
+.left-content input{border: solid 1px black;}
+.vorodiha{
+    padding-top: 30px;
+    padding-right: 20px;
+}
+.dokme-taeed{
+    background-color: rgb(29, 29, 233);
+    color: white;
+    border-width: 1px;
+    border-radius: 2px;
+    cursor: pointer;
+    text-align: right;
+    font-size: 15px;
+    padding-left: 65px;
+    padding-right: 65px;
+    margin-right: -100px;
+}
+.dokme-taeed:hover{background-color: green;
+}
+table,tr,td,th{border:2px black solid;
+    border-collapse: collapse;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    padding-top: 6px;
+    padding-left: 10px;
+    padding-right: 20px;
+    }
+.right-content{
+    padding-left: 60px;
+    padding-top: 33px;
+}
+
+.footer{
+    grid-column: 1/3;
+}
